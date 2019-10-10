@@ -1,6 +1,5 @@
 
 #import "RNReactNativeMantis.h"
-#import "React/RCTBridgeModule.h"
 
 @implementation RNReactNativeMantis
 
