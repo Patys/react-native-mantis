@@ -3,6 +3,6 @@
 
 @interface RCT_EXTERN_MODULE(RNReactNativeMantis, NSObject)
 
-RCT_EXTERN_METHOD(editPhoto: (RCTResponseSenderBlock)name)
+RCT_EXTERN_METHOD(editPhoto:(NSString *)name)
 
 @end
