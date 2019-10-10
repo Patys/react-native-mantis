@@ -4,7 +4,3 @@
 #else
 #import <React/RCTBridgeModule.h>
 #endif
-
-@interface RNReactNativeMantis : NSObject <RCTBridgeModule>
-
-@end
