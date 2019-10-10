@@ -11,7 +11,12 @@ import Foundation
 @objc(RNReactNativeMantis)
 class RNReactNativeMantis: NSObject {
   @objc
-  func editPhoto(_ name: NSString) -> [AnyHashable : Any]! {
-    return ["fileName": name]
+  func constantsToExport() -> [AnyHashable : Any]! {
+    return ["initialCount": 0]
+  }
+
+  @objc
+  func editPhoto(_ name: String) -> String {
+    return name
   }
 }
