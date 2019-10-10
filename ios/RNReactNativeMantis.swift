@@ -8,8 +8,8 @@
 
 import Foundation
 
-@objc(RNMantis)
-class RNMantis: NSObject {
+@objc(RNReactNativeMantis)
+class RNReactNativeMantis: NSObject {
   @objc
   func constantsToExport() -> [AnyHashable : Any]! {
     return ["initialCount": 0]
