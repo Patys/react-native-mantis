@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Mantis
 
 @objc(RNReactNativeMantis)
 class RNReactNativeMantis: NSObject {
