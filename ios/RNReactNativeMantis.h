@@ -6,7 +6,7 @@
 #endif
 
 #import <UIKit/UIKit.h>
-@import Mantis;
+#import "Mantis.h";
 
 @interface RNReactNativeMantis : NSObject <RCTBridgeModule, CropViewControllerDelegate>
 
