@@ -15,8 +15,7 @@ class RNReactNativeMantis: NSObject {
     return ["initialCount": 0]
   }
 
-  @objc(name:)
-  func editPhoto(name: String) -> String {
+  @objc func editPhoto(_ name: String) -> String {
     return name
   }
 }
