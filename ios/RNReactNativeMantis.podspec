@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNReactNativeMantis
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://patys.pl"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "kontakt@patys.pl" }
@@ -17,6 +17,5 @@ Pod::Spec.new do |s|
 
 
   s.dependency "React"
-  s.dependency "Mantis", :git => 'https://github.com/guoyingtao/Mantis'
-
+  s.dependency "Mantis"
 end
