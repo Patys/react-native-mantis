@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5EC7B57B234F907D0009E803 /* RNReactNativeMantis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7B57A234F907D0009E803 /* RNReactNativeMantis.swift */; };
 		B3E7B58A1CC2AC0600A0062D /* RNReactNativeMantis.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNReactNativeMantis.m */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +24,6 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNReactNativeMantis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNReactNativeMantis.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EC7B579234F907C0009E803 /* RNReactNativeMantis-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNReactNativeMantis-Bridging-Header.h"; sourceTree = "<group>"; };
-		5EC7B57A234F907D0009E803 /* RNReactNativeMantis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNReactNativeMantis.swift; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNReactNativeMantis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNReactNativeMantis.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNReactNativeMantis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNReactNativeMantis.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,11 +50,9 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				5EC7B57A234F907D0009E803 /* RNReactNativeMantis.swift */,
 				B3E7B5881CC2AC0600A0062D /* RNReactNativeMantis.h */,
 				B3E7B5891CC2AC0600A0062D /* RNReactNativeMantis.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
-				5EC7B579234F907C0009E803 /* RNReactNativeMantis-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,7 +114,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC7B57B234F907D0009E803 /* RNReactNativeMantis.swift in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNReactNativeMantis.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +219,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNReactNativeMantis;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "RNReactNativeMantis-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -246,7 +240,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNReactNativeMantis;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "RNReactNativeMantis-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
