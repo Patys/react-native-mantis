@@ -4,3 +4,10 @@
 #else
 #import <React/RCTBridgeModule.h>
 #endif
+
+#import <UIKit/UIKit.h>
+@import Mantis;
+
+@interface RNReactNativeMantis : NSObject <RCTBridgeModule, CropViewControllerDelegate>
+
+@end
